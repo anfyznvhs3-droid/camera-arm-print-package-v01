@@ -41,7 +41,7 @@
     {
       "file": "stl/V66C3_Hardware_M3_Shank40.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/brake-knob-1.stl",
@@ -111,42 +111,42 @@
     {
       "file": "stl/metal-M2-camera-head-envelope.stl",
       "qty": 4,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M2-camera-nut-envelope.stl",
       "qty": 4,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M3-case-head-envelope.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M3-case-nut-envelope.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M6-38-shank-envelope.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M6-flat-washer-envelope.stl",
       "qty": 4,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M6-hex-head-envelope.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/metal-M6-hex-nut-envelope.stl",
       "qty": 2,
-      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+      "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
       "file": "stl/official-camera3-standard-imported-reference.stl",
@@ -183,5 +183,6 @@
       "qty": 1,
       "material": "PETG-CF"
     }
-  ]
+  ],
+  "stl-print-only": "PETG-CF print set: 27 unique parts, 35 pcs total (metal hardware excluded - purchase)"
 }
