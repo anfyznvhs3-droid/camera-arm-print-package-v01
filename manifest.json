@@ -1,0 +1,187 @@
+{
+  "package": "arm full chain - camera end to arm mount (B0 square plate EXCLUDED)",
+  "date": "2026-11-10",
+  "clearance": "ear OD R15.7 (0.3mm radial, user experience value - verify R1-R5)",
+  "parts": [
+    {
+      "file": "stl/A1-L90-front-v01.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/A2-L100-U-rail-front-v01.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/B1-C2-clearance-v02.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/Q1-M20x2-cap-v01.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/Q2-Q3-M10x1p5-cap-v01.stl",
+      "qty": 2,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/SOL-V76-PETGCF-lower-shelf-jaw.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/SOL-V76-PETGCF-upper-shelf-jaw.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/V66C3_Hardware_M3_Shank40.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/brake-knob-1.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-knob-3.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-knob-D8x1p5-v03.stl",
+      "qty": 3,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-nut-1.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-nut-3.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-nut-D8x1p5-v01.stl",
+      "qty": 3,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-shoe-R10-v01.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/brake-shoe-R5-v01.stl",
+      "qty": 2,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/h1-v02-base.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/m2-shank-envelope-1.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/m2-shank-envelope-2.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/m2-shank-envelope-3.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/m2-shank-envelope-4.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/metal-M2-camera-head-envelope.stl",
+      "qty": 4,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M2-camera-nut-envelope.stl",
+      "qty": 4,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M3-case-head-envelope.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M3-case-nut-envelope.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M6-38-shank-envelope.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M6-flat-washer-envelope.stl",
+      "qty": 4,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M6-hex-head-envelope.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/metal-M6-hex-nut-envelope.stl",
+      "qty": 2,
+      "material": "METAL-HARDWARE(purchase; printable for fit-check)"
+    },
+    {
+      "file": "stl/official-camera3-standard-imported-reference.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/pitch-pin-D10-M10x1p5-v02.stl",
+      "qty": 2,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/q3-capture-cap-v02.stl",
+      "qty": 2,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/q3-keyed-pin-v03.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/q3-shoe-plus.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/q4-shoe-plus.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/t1-q4-downward37.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    }
+  ]
+}
