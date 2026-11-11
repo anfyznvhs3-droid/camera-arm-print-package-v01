@@ -1,5 +1,5 @@
 {
-  "package": "arm full chain - camera end to arm mount (B0 square plate EXCLUDED)",
+  "package": "arm full chain - camera end to shelf mount INCLUDING B0 foot-journal base",
   "date": "2026-11-10",
   "clearance": "ear OD R15.7 (0.3mm radial, user experience value - verify R1-R5)",
   "parts": [
@@ -10,6 +10,11 @@
     },
     {
       "file": "stl/A2-L100-U-rail-front-v01.stl",
+      "qty": 1,
+      "material": "PETG-CF"
+    },
+    {
+      "file": "stl/B0-foot-journal-v01.stl",
       "qty": 1,
       "material": "PETG-CF"
     },
@@ -184,5 +189,5 @@
       "material": "PETG-CF"
     }
   ],
-  "stl-print-only": "PETG-CF print set: 27 unique parts, 35 pcs total (metal hardware excluded - purchase)"
+  "stl-print-only": "PETG-CF print set: 28 unique parts, 36 pcs"
 }
