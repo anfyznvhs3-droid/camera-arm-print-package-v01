@@ -49,22 +49,22 @@
       "material": "METAL-HARDWARE(purchase - DO NOT PRINT)"
     },
     {
-      "file": "stl/brake-knob-1.stl",
+      "file": "stl/brake-knob-1-v02.stl",
       "qty": 1,
       "material": "PETG-CF",
-      "note": "guide tip suppressed (FDM breakage); flat shoe-contact face. original recoverable via unsuppress"
+      "note": "guide tip RESTORED + R1.2mm root fillet (FDM strength fix); nose OD1.8 fits shoe recess"
     },
     {
-      "file": "stl/brake-knob-3.stl",
+      "file": "stl/brake-knob-3-v02.stl",
       "qty": 1,
       "material": "PETG-CF",
-      "note": "guide tip suppressed (FDM breakage); flat shoe-contact face. original recoverable via unsuppress"
+      "note": "guide tip RESTORED + R1.2mm root fillet (FDM strength fix); nose OD1.8 fits shoe recess"
     },
     {
-      "file": "stl/brake-knob-D8x1p5-v04.stl",
+      "file": "stl/brake-knob-D8x1p5-v05.stl",
       "qty": 3,
       "material": "PETG-CF",
-      "note": "v04: KnobGuideTip(OD1.8x5.5mm) removed - tip broke in FDM print; shoe retained by pocket"
+      "note": "guide tip RESTORED + R1.2mm root fillet (FDM strength fix); nose OD1.8 fits shoe recess"
     },
     {
       "file": "stl/brake-nut-1.stl",
