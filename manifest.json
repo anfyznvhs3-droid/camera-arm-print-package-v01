@@ -51,12 +51,14 @@
     {
       "file": "stl/brake-knob-1.stl",
       "qty": 1,
-      "material": "PETG-CF"
+      "material": "PETG-CF",
+      "note": "guide tip suppressed (FDM breakage); flat shoe-contact face. original recoverable via unsuppress"
     },
     {
       "file": "stl/brake-knob-3.stl",
       "qty": 1,
-      "material": "PETG-CF"
+      "material": "PETG-CF",
+      "note": "guide tip suppressed (FDM breakage); flat shoe-contact face. original recoverable via unsuppress"
     },
     {
       "file": "stl/brake-knob-D8x1p5-v04.stl",
