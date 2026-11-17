@@ -52,7 +52,7 @@ PM.forEach(it=>{it.base=it.m.position.clone();
  else{dv=it.m.position.clone();}
  it.dir=dv.lengthSq()>1e-6?dv.normalize():new THREE.Vector3(0,0,1);});
 const st=document.createElement('style');
-st.textContent=`#plist{position:fixed;left:8px;top:8px;bottom:8px;width:190px;background:rgba(20,22,25,.92);border:1px solid #444;z-index:10;display:flex;flex-direction:column;font-size:11px}
+st.textContent=`#plist{position:fixed;left:8px;top:8px;height:52vh;width:190px;background:rgba(20,22,25,.92);border:1px solid #444;z-index:10;display:flex;flex-direction:column;font-size:11px}
 #plist .h{padding:4px 6px;border-bottom:1px solid #444;display:flex;gap:4px;flex-wrap:wrap}
 #plist button{background:#2a2e33;border:1px solid #555;color:#ddd;padding:1px 5px;cursor:pointer;font-size:10px}
 #plist button:hover{background:#3a4046}
@@ -63,7 +63,7 @@ st.textContent=`#plist{position:fixed;left:8px;top:8px;bottom:8px;width:190px;ba
 #exrow{padding:4px 6px;border-top:1px solid #444}`;
 document.head.appendChild(st);
 const pl=document.createElement('div');pl.id='plist';
-pl.innerHTML=`<div class=h id=pbtns></div><input id=psearch placeholder="\ud30c\ud2b8 \uac80\uc0c9"><div id=pitems></div><div id=exrow>\ubd84\ud574\ub3c4 <input id=expl type=range min=0 max=120 value=0 style="width:110px;vertical-align:middle"></div>`;
+pl.innerHTML=`<div class=h><button id=pcol style="margin-right:auto">[\ubcf4기]</button></div><div class=h id=pbtns></div><input id=psearch placeholder="\ud30c\ud2b8 \uac80\uc0c9"><div id=pitems></div><div id=exrow>\ubd84\ud574\ub3c4 <input id=expl type=range min=0 max=120 value=0 style="width:110px;vertical-align:middle"></div>`;
 document.body.appendChild(pl);
 const btns=[["\uc804\uccb4",_=>true],["\uc554",it=>it.g>=0],["\uace0\uc815/\ud398\ub2ec",it=>it.g<0],["J1",it=>it.g===0],["J2",it=>it.g===1],["J3",it=>it.g===2],["J4",it=>it.g===3],["J5",it=>it.g===4]];
 const pitems=pl.querySelector('#pitems');
@@ -76,6 +76,7 @@ PM.forEach(it=>{const lb=document.createElement('label');
 btns.forEach(([t,f])=>{const b=document.createElement('button');b.textContent=t;
  b.onclick=()=>PM.forEach(it=>{const v=f(it);it.m.visible=v;rowmap.get(it).checked=v;});
  pl.querySelector('#pbtns').appendChild(b);});
+pl.querySelector('#pcol').onclick=()=>{const h=pitems.style.display==='none';pitems.style.display=h?'':'none';pl.querySelector('#psearch').style.display=h?'':'none';pl.querySelector('#pbtns').style.display=h?'':'none';pl.querySelector('#exrow').style.display=h?'':'none';pl.style.height=h?'52vh':'auto';};
 pl.querySelector('#psearch').addEventListener('input',e=>{const q=e.target.value.toLowerCase();
  pitems.querySelectorAll('label').forEach(l=>l.style.display=l.dataset.n.includes(q)?'':'none');});
 pl.querySelector('#expl').addEventListener('input',e=>{const k=+e.target.value;
